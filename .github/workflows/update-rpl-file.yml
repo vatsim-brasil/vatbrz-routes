@@ -28,6 +28,9 @@ jobs:
       - run: curl -o data/rpl-source.json https://mach.jpedroh.dev/api/flights/all
       - run: node src/rpl-parser.ts > data/rpl.json
       - run: node src/combine-files.ts ${RPL_DATE} > data/full.json
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - run: git add data/rpl.json data/full.json
       - run: git commit -m "Update RPL and full file for date ${RPL_DATE}"
       - run: git push
