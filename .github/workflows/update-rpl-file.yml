@@ -1,0 +1,34 @@
+name: Update RPL file
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date of publication of RPL (DDMMYYYY). If not provided, uses current date.'
+        required: false
+  schedule:
+    - cron: '0 3 * * *'
+jobs:
+  update_rpl:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4.1.0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+
+      - run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            echo "RPL_DATE=${{ github.event.inputs.date }}" >> $GITHUB_ENV
+          else
+            echo "RPL_DATE=$(date +'%d%m%Y')" >> $GITHUB_ENV
+          fi
+      - run: curl -o data/rpl-source.json https://mach.jpedroh.dev/api/flights/all
+      - run: node src/rpl-parser.ts > data/rpl.json
+      - run: node src/combine-files.ts ${RPL_DATE} > data/full.json
+      - run: git add data/rpl.json data/full.json
+      - run: git commit -m "Update RPL and full file for date ${RPL_DATE}"
+      - run: git push

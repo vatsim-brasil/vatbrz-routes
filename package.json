@@ -1,0 +1,23 @@
+{
+	"name": "vatbrz-routes",
+	"version": "1.0.0",
+	"description": "Preferential or mandatory routes for Brazilian airspace, to be primarily used in Vatsim Brasil. This will be kept up to date inline with latest RPL and AIRAC updates.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"rpl": "node src/rpl-parser.ts",
+		"test": "node --test src/**/*.test.ts",
+		"format": "npx @biomejs/biome format --write src/"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^24.8.1",
+		"zod": "^4.1.12"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.2.6",
+		"@total-typescript/tsconfig": "^1.0.4"
+	}
+}
