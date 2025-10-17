@@ -1,0 +1,33 @@
+name: Update RPL file
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date of publication of RPL (YYYY-MM-DD)'
+        required: false
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  update_rpl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4.1.0
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+      - run: pnpm install
+      - run: npx nx run @mach/rpl-crawler-cli:pack
+      - run: node apps/rpl-crawler-cli/dist ${RPL_DATE:-$(date +"%Y-%m-%d")}
+        env:
+          TURSO_CONNECTION_URL: ${{ secrets.turso_connection_url_production }}
+          TURSO_AUTH_TOKEN: ${{ secrets.turso_auth_token_production }}
+          AISWEB_API_KEY: ${{ secrets.aisweb_api_key }}
+          AISWEB_API_PASSWORD: ${{ secrets.aisweb_api_password }}
+          RPL_DATE: ${{ github.event.inputs.date }}
+          RPL_CRAWLER_SENTRY_DSN: ${{ secrets.rpl_crawler_sentry_dsn }}
+          RPL_CRAWLER_SENTRY_RELEASE: 'rpl-crawler@${{ github.sha }}'
+          RPL_CRAWLER_SENTRY_ENVIRONMENT: production
