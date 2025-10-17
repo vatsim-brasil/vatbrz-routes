@@ -9,10 +9,12 @@ export const rplFlightSchema = z.object({
 
 export type RplFlight = z.infer<typeof rplFlightSchema>;
 
-export type SimBriefFlight = {
-	dept: string;
-	dest: string;
-	acft: string;
-	route: string;
-	notes: string;
-};
+export const simBriefFlightSchema = z.object({
+	dept: z.string(),
+	dest: z.string(),
+	acft: z.string(),
+	route: z.string(),
+	notes: z.string(),
+});
+
+export type SimBriefFlight = z.infer<typeof simBriefFlightSchema>;

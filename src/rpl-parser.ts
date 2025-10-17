@@ -12,7 +12,7 @@ export async function fetchRplFlightData() {
 		path.resolve("./data/rpl-source.json"),
 		"utf-8",
 	).then(JSON.parse);
-	return z.array(rplFlightSchema).parse(payload);
+	return rplFlightSchema.array().parse(payload);
 }
 
 export function rplToSimbriefFlight(rplFlight: RplFlight) {
