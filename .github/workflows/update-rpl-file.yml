@@ -23,7 +23,7 @@ jobs:
           if [ -n "${{ github.event.inputs.date }}" ]; then
             echo "RPL_DATE=${{ github.event.inputs.date }}" >> $GITHUB_ENV
           else
-            echo "RPL_DATE=$(date +'%d%m%Y')" >> $GITHUB_ENV
+            echo "RPL_DATE=$(date +'%d%b%Y')" >> $GITHUB_ENV
           fi
       - run: curl -o data/rpl-source.json https://mach.jpedroh.dev/api/flights/all
       - run: node src/rpl-parser.ts > data/rpl.json

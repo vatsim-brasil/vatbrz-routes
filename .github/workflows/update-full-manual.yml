@@ -1,0 +1,25 @@
+name: Update full file with changes from manual.json
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - data/manual.json
+jobs:
+  update_rpl:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: node src/combine-files.ts $(date +'%d%b%Y') > data/full.json
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: git add data/full.json
+      - run: git commit -m "Update full file with changes from manual"
+      - run: git push
