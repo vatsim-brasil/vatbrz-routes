@@ -5,6 +5,7 @@ export const rplFlightSchema = z.object({
 	cruisingLevel: z.number(),
 	route: z.string(),
 	arrivalIcao: z.string(),
+	aircraftType: z.string(),
 });
 
 export type RplFlight = z.infer<typeof rplFlightSchema>;
@@ -12,7 +13,7 @@ export type RplFlight = z.infer<typeof rplFlightSchema>;
 export const simBriefFlightSchema = z.object({
 	dept: z.string(),
 	dest: z.string(),
-	acft: z.string(),
+	acft: z.enum(["Prop only", "Jet only", "Any"]),
 	route: z.string(),
 	notes: z.string(),
 });
