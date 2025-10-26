@@ -1,81 +1,9 @@
-import {
-	rplFlightSchema,
-	type RplFlight,
-	type SimBriefFlight,
-} from "./types.ts";
-import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { rplToSimbriefFlight } from "./lib/rpl-to-simbrief-flight.ts";
+import { groupSimbriefFlights } from "./lib/group-simbrief-flights.ts";
+import { fetchRplFlightData } from "./lib/fetch-rpl-flight-data.ts";
 
-export async function fetchRplFlightData() {
-	const payload = await readFile(
-		path.resolve("./data/rpl-source.json"),
-		"utf-8",
-	).then(JSON.parse);
-	return rplFlightSchema.array().parse(payload);
-}
-
-export const PROP_ONLY_AIRCRAFTS = ["C208", "AT76", "E110"];
-export const JET_ONLY_AIRCRAFTS = [
-	"B734",
-	"B737",
-	"B38M",
-	"B738",
-	"B789",
-	"A319",
-	"A320",
-	"A321",
-	"A20N",
-	"A21N",
-	"E195",
-	"E295",
-];
-
-export function rplToSimbriefFlight(rplFlight: RplFlight) {
-	return {
-		dept: rplFlight.departureIcao,
-		dest: rplFlight.arrivalIcao,
-		acft: PROP_ONLY_AIRCRAFTS.includes(rplFlight.aircraftIcaoCode)
-			? "Prop only"
-			: JET_ONLY_AIRCRAFTS.includes(rplFlight.aircraftIcaoCode)
-				? "Jet only"
-				: "Any",
-		route: rplFlight.route,
-		notes: "",
-	} as const;
-}
-
-export function groupSimbriefFlights(flights: SimBriefFlight[]) {
-	const flightsMap = new Map(
-		flights.map((flight) => {
-			const key = `${flight.dept}-${flight.dest}-${flight.acft}-${flight.route}-${flight.notes}`;
-			return [key, flight];
-		}),
-	);
-
-	for (const [key, flight] of flightsMap.entries()) {
-		if (flight.acft === "Any") {
-			continue;
-		}
-
-		const oppositeAcft = flight.acft === "Jet only" ? "Prop only" : "Jet only";
-		const oppositeKey = `${flight.dept}-${flight.dest}-${oppositeAcft}-${flight.route}-${flight.notes}`;
-
-		if (flightsMap.has(oppositeKey)) {
-			flightsMap.delete(key);
-			flightsMap.delete(oppositeKey);
-
-			const newFlight: SimBriefFlight = {
-				...flight,
-				acft: "Any",
-			};
-
-			flightsMap.set(`${flight.dept}-${flight.dest}-Any-${flight.route}-${flight.notes}`, newFlight);
-		}
-	}
-
-	return Array.from(flightsMap.values());
-}
-
-const flights = await fetchRplFlightData();
+const rplInputFile = path.resolve("./data/rpl-source.json");
+const flights = await fetchRplFlightData(rplInputFile);
 const items = groupSimbriefFlights(flights.map(rplToSimbriefFlight));
 console.log(JSON.stringify(items, null, 2));
