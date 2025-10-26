@@ -2,10 +2,9 @@ import z from "zod";
 
 export const rplFlightSchema = z.object({
 	departureIcao: z.string(),
-	cruisingLevel: z.number(),
 	route: z.string(),
 	arrivalIcao: z.string(),
-	aircraftType: z.string(),
+	aircraftIcaoCode: z.string(),
 });
 
 export type RplFlight = z.infer<typeof rplFlightSchema>;

@@ -34,9 +34,9 @@ export function rplToSimbriefFlight(rplFlight: RplFlight) {
 	return {
 		dept: rplFlight.departureIcao,
 		dest: rplFlight.arrivalIcao,
-		acft: PROP_ONLY_AIRCRAFTS.includes(rplFlight.aircraftType)
+		acft: PROP_ONLY_AIRCRAFTS.includes(rplFlight.aircraftIcaoCode)
 			? "Prop only"
-			: JET_ONLY_AIRCRAFTS.includes(rplFlight.aircraftType)
+			: JET_ONLY_AIRCRAFTS.includes(rplFlight.aircraftIcaoCode)
 				? "Jet only"
 				: "Any",
 		route: rplFlight.route,
@@ -51,6 +51,27 @@ export function groupSimbriefFlights(flights: SimBriefFlight[]) {
 			return [key, flight];
 		}),
 	);
+
+	for (const [key, flight] of flightsMap.entries()) {
+		if (flight.acft === "Any") {
+			continue;
+		}
+
+		const oppositeAcft = flight.acft === "Jet only" ? "Prop only" : "Jet only";
+		const oppositeKey = `${flight.dept}-${flight.dest}-${oppositeAcft}-${flight.route}-${flight.notes}`;
+
+		if (flightsMap.has(oppositeKey)) {
+			flightsMap.delete(key);
+			flightsMap.delete(oppositeKey);
+
+			const newFlight: SimBriefFlight = {
+				...flight,
+				acft: "Any",
+			};
+
+			flightsMap.set(`${flight.dept}-${flight.dest}-Any-${flight.route}-${flight.notes}`, newFlight);
+		}
+	}
 
 	return Array.from(flightsMap.values());
 }

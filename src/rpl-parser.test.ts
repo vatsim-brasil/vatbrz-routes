@@ -1,6 +1,6 @@
 import assert from "node:assert";
 import { describe, it } from "node:test";
-import { rplToSimbriefFlight } from "./rpl-parser.ts";
+import { groupSimbriefFlights, rplToSimbriefFlight } from "./rpl-parser.ts";
 
 describe("rplToSimbriefFlight", () => {
 	it("should convert RplFlight to SimBriefFlight", () => {
@@ -8,32 +8,56 @@ describe("rplToSimbriefFlight", () => {
 			departureIcao: "SBRF",
 			arrivalIcao: "SBBV",
 			route: "DCT REC DCT BVI DCT",
-			cruisingLevel: 390,
+			aircraftIcaoCode: "B738",
 		});
 
 		assert.equal(result.dept, "SBRF");
 		assert.equal(result.dest, "SBBV");
 		assert.equal(result.route, "DCT REC DCT BVI DCT");
-		assert.equal(result.acft, "Any");
 	});
 
-	it("if the route is above FL245 it should be printed on notes", () => {
+	it("If the aircraft is prop only, it should set acft to 'Prop only'", () => {
 		const result = rplToSimbriefFlight({
 			departureIcao: "SBRF",
 			arrivalIcao: "SBBV",
 			route: "DCT REC DCT BVI DCT",
-			cruisingLevel: 350,
+			aircraftIcaoCode: "C208",
 		});
-		assert.equal(result.notes, "(ABOVE F245)");
+		assert.equal(result.acft, "Prop only");
 	});
 
-	it("if the route is below FL245 it should be printed on notes", () => {
+	it("If the aircraft is jet only, it should set acft to 'Jet only'", () => {
 		const result = rplToSimbriefFlight({
 			departureIcao: "SBRF",
 			arrivalIcao: "SBBV",
 			route: "DCT REC DCT BVI DCT",
-			cruisingLevel: 145,
+			aircraftIcaoCode: "B738",
 		});
-		assert.equal(result.notes, "(AT OR BLW F245)");
+		assert.equal(result.acft, "Jet only");
 	});
 });
+
+describe('groupSimbriefFlights', () => {
+	it('if there two flights one jet only and one prop only, it should group them together in Any', () => {
+		const flights = [
+			{
+				dept: 'SBRF',
+				dest: 'SBBV',
+				acft: 'Jet only',
+				route: 'DCT REC DCT BVI DCT',
+				notes: '',
+			} as const,
+			{
+				dept: 'SBRF',
+				dest: 'SBBV',
+				acft: 'Prop only',
+				route: 'DCT REC DCT BVI DCT',
+				notes: '',
+			} as const,
+		];
+
+		const grouped = groupSimbriefFlights(flights);
+		assert.equal(grouped.length, 1);
+		assert.equal(grouped[0]?.acft, 'Any');
+	});
+})
