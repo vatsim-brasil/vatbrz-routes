@@ -1,4 +1,5 @@
 import { readFile } from "node:fs/promises";
+import { groupSimbriefFlights } from "./lib/group-simbrief-flights.ts";
 import { simBriefFlightSchema } from "./types.ts";
 
 const date = process.argv[2];
@@ -15,7 +16,7 @@ console.log(
 	JSON.stringify(
 		{
 			valid: date.toUpperCase(),
-			data: [...rplFileContents, ...manualFileContents],
+			data: groupSimbriefFlights([...rplFileContents, ...manualFileContents]),
 		},
 		null,
 		2,
