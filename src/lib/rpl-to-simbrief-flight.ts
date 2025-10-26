@@ -17,7 +17,9 @@ const JET_ONLY_AIRCRAFTS = [
 	"E295",
 ];
 
-function rplAircraftToSimbriefAircraft(acftCode: string): SimBriefFlight["acft"] {
+function rplAircraftToSimbriefAircraft(
+	acftCode: string,
+): SimBriefFlight["acft"] {
 	if (PROP_ONLY_AIRCRAFTS.includes(acftCode)) {
 		return "Prop only";
 	}

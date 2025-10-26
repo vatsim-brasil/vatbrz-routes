@@ -1,40 +1,30 @@
 import type { SimBriefFlight } from "../types.ts";
 
+function makeFlightKey(flight: SimBriefFlight) {
+	return `${flight.dept}-${flight.dest}-${flight.acft}-${flight.route}-${flight.notes}` as const;
+}
+
 export function groupSimbriefFlights(flights: SimBriefFlight[]) {
 	const flightsMap = new Map(
-		flights.map((flight) => {
-			const key = `${flight.dept}-${flight.dest}-${flight.acft}-${flight.route}-${flight.notes}`;
-			return [key, flight];
-		}),
+		flights.map((flight) => [makeFlightKey(flight), flight]),
 	);
 
 	for (const [key, flight] of flightsMap.entries()) {
 		if (flight.acft === "Any") {
-			const jetKey = `${flight.dept}-${flight.dest}-Jet only-${flight.route}-${flight.notes}`;
-			const propKey = `${flight.dept}-${flight.dest}-Prop only-${flight.route}-${flight.notes}`;
+			flightsMap.delete(makeFlightKey({ ...flight, acft: "Jet only" }));
+			flightsMap.delete(makeFlightKey({ ...flight, acft: "Prop only" }));
+		} else {
+			const oppositeAcft =
+				flight.acft === "Jet only" ? "Prop only" : "Jet only";
+			const oppositeKey = makeFlightKey({ ...flight, acft: oppositeAcft });
 
-			flightsMap.delete(jetKey);
-			flightsMap.delete(propKey);
+			if (flightsMap.has(oppositeKey)) {
+				flightsMap.delete(key);
+				flightsMap.delete(oppositeKey);
 
-			continue;
-		}
-
-		const oppositeAcft = flight.acft === "Jet only" ? "Prop only" : "Jet only";
-		const oppositeKey = `${flight.dept}-${flight.dest}-${oppositeAcft}-${flight.route}-${flight.notes}`;
-
-		if (flightsMap.has(oppositeKey)) {
-			flightsMap.delete(key);
-			flightsMap.delete(oppositeKey);
-
-			const newFlight: SimBriefFlight = {
-				...flight,
-				acft: "Any",
-			};
-
-			flightsMap.set(
-				`${flight.dept}-${flight.dest}-Any-${flight.route}-${flight.notes}`,
-				newFlight,
-			);
+				const newFlight = { ...flight, acft: "Any" } satisfies SimBriefFlight;
+				flightsMap.set(makeFlightKey(newFlight), newFlight);
+			}
 		}
 	}
 
