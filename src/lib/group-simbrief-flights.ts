@@ -10,6 +10,12 @@ export function groupSimbriefFlights(flights: SimBriefFlight[]) {
 
 	for (const [key, flight] of flightsMap.entries()) {
 		if (flight.acft === "Any") {
+			const jetKey = `${flight.dept}-${flight.dest}-Jet only-${flight.route}-${flight.notes}`;
+			const propKey = `${flight.dept}-${flight.dest}-Prop only-${flight.route}-${flight.notes}`;
+
+			flightsMap.delete(jetKey);
+			flightsMap.delete(propKey);
+
 			continue;
 		}
 
