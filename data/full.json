@@ -480,13 +480,6 @@
     {
       "dept": "SBBR",
       "dest": "SBGR",
-      "acft": "Jet only",
-      "route": "DCT ENRUR UZ38 VUNOX DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBBR",
-      "dest": "SBGR",
       "acft": "Any",
       "route": "DCT ENRUR UZ38 VUNOX DCT",
       "notes": ""
@@ -537,13 +530,6 @@
       "dept": "SBBR",
       "dest": "SBEG",
       "acft": "Any",
-      "route": "DCT KOGLI DCT UGUGA UM409 MAMGI UZ9 KOKMU DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBBR",
-      "dest": "SBEG",
-      "acft": "Jet only",
       "route": "DCT KOGLI DCT UGUGA UM409 MAMGI UZ9 KOKMU DCT",
       "notes": ""
     },
@@ -1678,13 +1664,6 @@
       "dept": "SBEG",
       "dest": "SBBR",
       "acft": "Any",
-      "route": "DCT UTPAM UZ6 PABUM DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBEG",
-      "dest": "SBBR",
-      "acft": "Jet only",
       "route": "DCT UTPAM UZ6 PABUM DCT",
       "notes": ""
     },
