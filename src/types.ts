@@ -4,6 +4,7 @@ export const rplFlightSchema = z.object({
 	departureIcao: z.string(),
 	route: z.string(),
 	arrivalIcao: z.string(),
+	cruisingLevel: z.number(),
 	aircraftIcaoCode: z.string(),
 });
 

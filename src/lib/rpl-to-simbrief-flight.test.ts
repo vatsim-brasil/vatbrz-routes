@@ -8,6 +8,7 @@ it("should convert RplFlight to SimBriefFlight", () => {
 		arrivalIcao: "SBBV",
 		route: "DCT REC DCT BVI DCT",
 		aircraftIcaoCode: "B738",
+		cruisingLevel: 350
 	});
 
 	assert.equal(result.dept, "SBRF");
@@ -21,16 +22,18 @@ it("If the aircraft is prop only, it should set acft to 'Prop only'", () => {
 		arrivalIcao: "SBBV",
 		route: "DCT REC DCT BVI DCT",
 		aircraftIcaoCode: "C208",
+		cruisingLevel: 100
 	});
 	assert.equal(result.acft, "Prop only");
 });
 
-it("If the aircraft is jet only, it should set acft to 'Jet only'", () => {
+it("If the flight altitude is above FL245, it should set acft to 'Jet only'", () => {
 	const result = rplToSimbriefFlight({
 		departureIcao: "SBRF",
 		arrivalIcao: "SBBV",
 		route: "DCT REC DCT BVI DCT",
-		aircraftIcaoCode: "B738",
+		aircraftIcaoCode: "B752",
+		cruisingLevel: 250,
 	});
 	assert.equal(result.acft, "Jet only");
 });
