@@ -1,3 +1,9 @@
 [
-    
+  {
+    "dept": "SBPA",
+    "dest": "SBCG",
+    "acft": "Any",
+    "route": "IRILU DCT NIRDA DCT KOVES DCT FIGOS",
+    "notes": ""
+  }
 ]
