@@ -6279,6 +6279,13 @@
       "acft": "Any",
       "route": "DCT 0241S05659W/N0252F180 IFR DCT KULAB",
       "notes": ""
+    },
+    {
+      "dept": "SBPA",
+      "dest": "SBCG",
+      "acft": "Any",
+      "route": "IRILU DCT NIRDA DCT KOVES DCT FIGOS",
+      "notes": ""
     }
   ]
 }
