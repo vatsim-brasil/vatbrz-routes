@@ -1,5 +1,5 @@
 {
-  "valid": "12AUG2026",
+  "valid": "13AUG2026",
   "data": [
     {
       "dept": "SBAE",
@@ -24,16 +24,16 @@
     },
     {
       "dept": "SBAR",
-      "dest": "SBKP",
+      "dest": "SBGL",
       "acft": "Jet only",
-      "route": "DABAD UZ30 ENTIT",
+      "route": "ARURU DCT VUREK DCT EDRAG DCT SATBU UN857 MOLSU",
       "notes": ""
     },
     {
       "dept": "SBAR",
-      "dest": "SBGL",
+      "dest": "SBKP",
       "acft": "Jet only",
-      "route": "ARURU DCT VUREK DCT EDRAG DCT SATBU UN857 MOLSU",
+      "route": "DABAD UZ30 ENTIT",
       "notes": ""
     },
     {
@@ -67,13 +67,6 @@
     {
       "dept": "SBAR",
       "dest": "SBSV",
-      "acft": "Prop only",
-      "route": "DCT ARURU DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBAR",
-      "dest": "SBSV",
       "acft": "Jet only",
       "route": "DCT AKPAS",
       "notes": ""
@@ -87,9 +80,9 @@
     },
     {
       "dept": "SBAR",
-      "dest": "SBRF",
+      "dest": "SBSV",
       "acft": "Prop only",
-      "route": "DCT DENDO REC DCT",
+      "route": "DCT ARURU DCT",
       "notes": ""
     },
     {
@@ -297,16 +290,16 @@
     },
     {
       "dept": "SBBR",
-      "dest": "SBGR",
+      "dest": "SBCF",
       "acft": "Jet only",
-      "route": "ENRUR UZ38 VUNOX",
+      "route": "GEPMO UZ35 REINA",
       "notes": ""
     },
     {
       "dept": "SBBR",
-      "dest": "SBCF",
+      "dest": "SBGR",
       "acft": "Jet only",
-      "route": "GEPMO UZ35 REINA",
+      "route": "ENRUR UZ38 VUNOX",
       "notes": ""
     },
     {
@@ -339,13 +332,6 @@
     },
     {
       "dept": "SBBR",
-      "dest": "SBBV",
-      "acft": "Jet only",
-      "route": "ILKUS DCT OPNAX UZ24 ILVIS DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBBR",
       "dest": "SBRF",
       "acft": "Jet only",
       "route": "UGTAK UZ19 EPGEM DCT EGIKO DCT MUDAR",
@@ -360,9 +346,9 @@
     },
     {
       "dept": "SBBR",
-      "dest": "SBCY",
+      "dest": "SBBV",
       "acft": "Jet only",
-      "route": "SIREM DCT LODOV DCT MABMA",
+      "route": "ILKUS DCT OPNAX UZ24 ILVIS DCT",
       "notes": ""
     },
     {
@@ -370,6 +356,13 @@
       "dest": "SBSL",
       "acft": "Jet only",
       "route": "PULUV UZ2 SLI DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBBR",
+      "dest": "SBCY",
+      "acft": "Jet only",
+      "route": "SIREM DCT LODOV DCT MABMA",
       "notes": ""
     },
     {
@@ -388,6 +381,13 @@
     },
     {
       "dept": "SBBR",
+      "dest": "SBMO",
+      "acft": "Jet only",
+      "route": "UGTAK UZ19 LOLIP DCT ASGIK DCT MCE DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBBR",
       "dest": "SBGL",
       "acft": "Jet only",
       "route": "GEPMO UZ24 MAVGU",
@@ -398,13 +398,6 @@
       "dest": "SBRB",
       "acft": "Jet only",
       "route": "PABUM UZ98 BUVKI UZ76 ESMAL DCT RCO DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBBR",
-      "dest": "SBMO",
-      "acft": "Jet only",
-      "route": "UGTAK UZ19 LOLIP DCT ASGIK DCT MCE DCT",
       "notes": ""
     },
     {
@@ -437,16 +430,16 @@
     },
     {
       "dept": "SBBR",
-      "dest": "SBTE",
+      "dest": "SBSL",
       "acft": "Jet only",
-      "route": "PULUV UZ5 TNA",
+      "route": "PULUV UZ2 UCROK",
       "notes": ""
     },
     {
       "dept": "SBBR",
-      "dest": "SBSL",
+      "dest": "SBTE",
       "acft": "Jet only",
-      "route": "PULUV UZ2 UCROK",
+      "route": "PULUV UZ5 TNA",
       "notes": ""
     },
     {
@@ -514,16 +507,16 @@
     },
     {
       "dept": "SBBR",
-      "dest": "SBRF",
+      "dest": "SBSP",
       "acft": "Jet only",
-      "route": "EPDEP UZ78 NETBA UZ79 MUDAR",
+      "route": "GEBEP UZ2 ENTIT",
       "notes": ""
     },
     {
       "dept": "SBBR",
-      "dest": "SBSP",
+      "dest": "SBRF",
       "acft": "Jet only",
-      "route": "GEBEP UZ2 ENTIT",
+      "route": "EPDEP UZ78 NETBA UZ79 MUDAR",
       "notes": ""
     },
     {
@@ -542,9 +535,9 @@
     },
     {
       "dept": "SBBR",
-      "dest": "SBVT",
+      "dest": "SBEG",
       "acft": "Jet only",
-      "route": "SAVPU UZ32 SATBU",
+      "route": "UGUGA UM409 ESMAR DCT ESITU DCT IRUMO",
       "notes": ""
     },
     {
@@ -563,16 +556,16 @@
     },
     {
       "dept": "SBBR",
-      "dest": "SBAR",
+      "dest": "SBVT",
       "acft": "Jet only",
-      "route": "UGTAK UZ19 LOLIP DCT TEMEV DCT",
+      "route": "SAVPU UZ32 SATBU",
       "notes": ""
     },
     {
       "dept": "SBBR",
-      "dest": "SBKG",
+      "dest": "SBAR",
       "acft": "Jet only",
-      "route": "EPDEP UZ78 VUGID UZ84 ASEVA DCT",
+      "route": "UGTAK UZ19 LOLIP DCT TEMEV DCT",
       "notes": ""
     },
     {
@@ -584,9 +577,9 @@
     },
     {
       "dept": "SBBR",
-      "dest": "SBEG",
+      "dest": "SBKG",
       "acft": "Jet only",
-      "route": "UGUGA UM409 MOPRA DCT IRUMO",
+      "route": "EPDEP UZ78 VUGID UZ84 ASEVA DCT",
       "notes": ""
     },
     {
@@ -594,6 +587,13 @@
       "dest": "SBPS",
       "acft": "Jet only",
       "route": "SAVPU DCT EVPIV DCT IVPEG DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBBR",
+      "dest": "SBEG",
+      "acft": "Jet only",
+      "route": "UGUGA UM409 MOPRA DCT IRUMO",
       "notes": ""
     },
     {
@@ -703,6 +703,13 @@
     },
     {
       "dept": "SBCF",
+      "dest": "SBGL",
+      "acft": "Jet only",
+      "route": "MAVGU DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBCF",
       "dest": "SBGR",
       "acft": "Jet only",
       "route": "DEUCA UZ21 VUNOX",
@@ -724,16 +731,16 @@
     },
     {
       "dept": "SBCF",
-      "dest": "SBFL",
-      "acft": "Jet only",
-      "route": "DEUCA UZ21 VUNOX UZ38 SOSGO DCT DOSMU UZ92 PUBIS",
+      "dest": "SBMK",
+      "acft": "Any",
+      "route": "PABES DCT",
       "notes": ""
     },
     {
       "dept": "SBCF",
-      "dest": "SBMK",
-      "acft": "Any",
-      "route": "PABES DCT",
+      "dest": "SBFL",
+      "acft": "Jet only",
+      "route": "DEUCA UZ21 VUNOX UZ38 SOSGO DCT DOSMU UZ92 PUBIS",
       "notes": ""
     },
     {
@@ -794,16 +801,16 @@
     },
     {
       "dept": "SBCF",
-      "dest": "SBSG",
+      "dest": "SBIZ",
       "acft": "Jet only",
-      "route": "ILPIR UZ72 EDNES UN866 DIMOD DCT TOSAD",
+      "route": "RORIP UZ3 DAPTA DCT",
       "notes": ""
     },
     {
       "dept": "SBCF",
-      "dest": "SBIZ",
+      "dest": "SBSG",
       "acft": "Jet only",
-      "route": "RORIP UZ3 DAPTA DCT",
+      "route": "ILPIR UZ72 EDNES UN866 DIMOD DCT TOSAD",
       "notes": ""
     },
     {
@@ -829,16 +836,16 @@
     },
     {
       "dept": "SBCF",
-      "dest": "SBPJ",
+      "dest": "SBMO",
       "acft": "Jet only",
-      "route": "RORIP DCT UGTAK DCT TEDEP DCT LIBEC",
+      "route": "ILPIR UZ23 ANDIG DCT",
       "notes": ""
     },
     {
       "dept": "SBCF",
-      "dest": "SBMO",
+      "dest": "SBPJ",
       "acft": "Jet only",
-      "route": "ILPIR UZ23 ANDIG DCT",
+      "route": "RORIP DCT UGTAK DCT TEDEP DCT LIBEC",
       "notes": ""
     },
     {
@@ -853,13 +860,6 @@
       "dest": "SBPS",
       "acft": "Jet only",
       "route": "KADOR DCT POSMU DCT OSUNO",
-      "notes": ""
-    },
-    {
-      "dept": "SBCF",
-      "dest": "SBGL",
-      "acft": "Jet only",
-      "route": "MAVGU DCT",
       "notes": ""
     },
     {
@@ -906,16 +906,16 @@
     },
     {
       "dept": "SBCF",
-      "dest": "SBLE",
+      "dest": "SNGI",
       "acft": "Any",
-      "route": "ILPIR DCT ANSEM DCT DOSVU DCT",
+      "route": "ILPIR DCT EVPIV DCT 1459S04255W DCT",
       "notes": ""
     },
     {
       "dept": "SBCF",
-      "dest": "SNGI",
+      "dest": "SBLE",
       "acft": "Any",
-      "route": "ILPIR DCT EVPIV DCT 1459S04255W DCT",
+      "route": "ILPIR DCT ANSEM DCT DOSVU DCT",
       "notes": ""
     },
     {
@@ -955,16 +955,16 @@
     },
     {
       "dept": "SBCF",
-      "dest": "SBAX",
-      "acft": "Prop only",
-      "route": "DCT MIMIP DCT 1934S04644W DCT",
+      "dest": "SBRB",
+      "acft": "Jet only",
+      "route": "MIMIP UZ8 MABMA DCT OREGI/N0453F380 DCT UGAXO UM775 BUTKA DCT",
       "notes": ""
     },
     {
       "dept": "SBCF",
-      "dest": "SBRB",
-      "acft": "Jet only",
-      "route": "MIMIP UZ8 MABMA DCT OREGI/N0453F380 DCT UGAXO UM775 BUTKA DCT",
+      "dest": "SBAX",
+      "acft": "Prop only",
+      "route": "DCT MIMIP DCT 1934S04644W DCT",
       "notes": ""
     },
     {
@@ -1094,13 +1094,6 @@
       "notes": ""
     },
     {
-      "dept": "SBCF",
-      "dest": "SBJR",
-      "acft": "Prop only",
-      "route": "DCT DEJAN DCT PAI DCT EPGIP DCT 2301S04403W/N0155F080 DCT 2314S04407W/N0155VFR VFR REA",
-      "notes": ""
-    },
-    {
       "dept": "SBCG",
       "dest": "SBGL",
       "acft": "Jet only",
@@ -1160,14 +1153,14 @@
       "dept": "SBCH",
       "dest": "SBKP",
       "acft": "Jet only",
-      "route": "NIRDA DCT AKPEN UZ132 EDRAT",
+      "route": "DCT NIRDA DCT AKPEN UZ132 EDRAT",
       "notes": ""
     },
     {
       "dept": "SBCH",
       "dest": "SBKP",
       "acft": "Jet only",
-      "route": "DCT NIRDA DCT AKPEN UZ132 EDRAT",
+      "route": "NIRDA DCT AKPEN UZ132 EDRAT",
       "notes": ""
     },
     {
@@ -1175,13 +1168,6 @@
       "dest": "SBBE",
       "acft": "Prop only",
       "route": "DCT 0548S04954W DCT 0418S04926W DCT LUIZA",
-      "notes": ""
-    },
-    {
-      "dept": "SBCJ",
-      "dest": "SBCF",
-      "acft": "Jet only",
-      "route": "DCT ISOBI/N0467F370 UL576 OPNUP DCT DIDUG DCT GEVMI",
       "notes": ""
     },
     {
@@ -1210,6 +1196,13 @@
       "dest": "SDOW",
       "acft": "Prop only",
       "route": "DCT 0618S05018W DCT 0641S05056W/N0150F065 VFR",
+      "notes": ""
+    },
+    {
+      "dept": "SBCJ",
+      "dest": "SBCF",
+      "acft": "Jet only",
+      "route": "DCT ISOBI/N0467F370 UL576 OPNUP DCT DIDUG DCT GEVMI",
       "notes": ""
     },
     {
@@ -1389,13 +1382,6 @@
     },
     {
       "dept": "SBCY",
-      "dest": "SBGO",
-      "acft": "Jet only",
-      "route": "TORAB UZ8 UKBEB",
-      "notes": ""
-    },
-    {
-      "dept": "SBCY",
       "dest": "SBPV",
       "acft": "Jet only",
       "route": "GETMA DCT NETBU DCT DUBGI DCT",
@@ -1420,6 +1406,13 @@
       "dest": "SBKP",
       "acft": "Jet only",
       "route": "DIKUN DCT ASDOV DCT UTLOT",
+      "notes": ""
+    },
+    {
+      "dept": "SBCY",
+      "dest": "SBGO",
+      "acft": "Jet only",
+      "route": "TORAB UZ8 UKBEB",
       "notes": ""
     },
     {
@@ -1543,6 +1536,13 @@
     },
     {
       "dept": "SBDN",
+      "dest": "SBSP",
+      "acft": "Jet only",
+      "route": "TOPUX DCT ESILO UZ65 EDMOX DCT UTLOT",
+      "notes": ""
+    },
+    {
+      "dept": "SBDN",
       "dest": "SBPS",
       "acft": "Jet only",
       "route": "EDSED DCT ETEGO DCT SISAS DCT EGBIG DCT EDPIG DCT OSUNO",
@@ -1553,13 +1553,6 @@
       "dest": "SBSG",
       "acft": "Jet only",
       "route": "EDSED DCT ISISA DCT KOMLU DCT IREGU DCT ALETA DCT UMGIS DCT TOGUN",
-      "notes": ""
-    },
-    {
-      "dept": "SBDN",
-      "dest": "SBSP",
-      "acft": "Jet only",
-      "route": "TOPUX DCT ESILO UZ65 EDMOX DCT UTLOT",
       "notes": ""
     },
     {
@@ -1606,16 +1599,16 @@
     },
     {
       "dept": "SBEG",
-      "dest": "SBGL",
+      "dest": "SBKP",
       "acft": "Jet only",
-      "route": "GIKVI UZ6 GEPMO UZ24 MAVGU",
+      "route": "ETAXA UZ87 PALCA UM411 UTLOT",
       "notes": ""
     },
     {
       "dept": "SBEG",
-      "dest": "SBKP",
+      "dest": "SBGL",
       "acft": "Jet only",
-      "route": "ETAXA UZ87 PALCA UM411 UTLOT",
+      "route": "GIKVI UZ6 GEPMO UZ24 MAVGU",
       "notes": ""
     },
     {
@@ -1669,9 +1662,9 @@
     },
     {
       "dept": "SBEG",
-      "dest": "SWLB",
+      "dest": "SWKO",
       "acft": "Prop only",
-      "route": "DCT 0341S06044W DCT 0433S06140W DCT 0523S06234W DCT 0621S06339W DCT 0659S06426W/N0150F065 VFR DCT",
+      "route": "DCT 0327S06108W DCT 0402S06248W/N0150F065 VFR DCT",
       "notes": ""
     },
     {
@@ -1683,9 +1676,9 @@
     },
     {
       "dept": "SBEG",
-      "dest": "SWKO",
+      "dest": "SWLB",
       "acft": "Prop only",
-      "route": "DCT 0327S06108W DCT 0402S06248W/N0150F065 VFR DCT",
+      "route": "DCT 0341S06044W DCT 0433S06140W DCT 0523S06234W DCT 0621S06339W DCT 0659S06426W/N0150F065 VFR DCT",
       "notes": ""
     },
     {
@@ -1788,16 +1781,16 @@
     },
     {
       "dept": "SBFI",
-      "dest": "SBGL",
+      "dest": "SBGR",
       "acft": "Jet only",
-      "route": "KAMIL UZ28 XONUG DCT UREMI UZ42 VUREP",
+      "route": "KAMIL UZ28 XONUG UZ121 BUXUK",
       "notes": ""
     },
     {
       "dept": "SBFI",
-      "dest": "SBGR",
+      "dest": "SBGL",
       "acft": "Jet only",
-      "route": "KAMIL UZ28 XONUG UZ121 BUXUK",
+      "route": "KAMIL UZ28 XONUG DCT UREMI UZ42 VUREP",
       "notes": ""
     },
     {
@@ -1949,13 +1942,6 @@
     },
     {
       "dept": "SBFZ",
-      "dest": "SBGL",
-      "acft": "Jet only",
-      "route": "UGEPO UZ19 ANPAG UZ29 KALUK DCT DOGSU UN857 MOLSU",
-      "notes": ""
-    },
-    {
-      "dept": "SBFZ",
       "dest": "SBBE",
       "acft": "Jet only",
       "route": "ISUPI UZ81 SLI DCT LIVED",
@@ -1994,6 +1980,13 @@
       "dest": "SBRF",
       "acft": "Jet only",
       "route": "UTMAR UZ70 UGTUN",
+      "notes": ""
+    },
+    {
+      "dept": "SBFZ",
+      "dest": "SBGL",
+      "acft": "Jet only",
+      "route": "UGEPO UZ19 ANPAG UZ29 KALUK DCT DOGSU UN857 MOLSU",
       "notes": ""
     },
     {
@@ -2075,23 +2068,9 @@
     },
     {
       "dept": "SBGL",
-      "dest": "SBCG",
-      "acft": "Jet only",
-      "route": "NAXOP UZ45 IBDAL DCT UKATU UM415 FIGOS",
-      "notes": ""
-    },
-    {
-      "dept": "SBGL",
       "dest": "SBSV",
       "acft": "Jet only",
       "route": "IMBAP UZ42 SIRAP DCT OSAGU DCT ZUMBA",
-      "notes": ""
-    },
-    {
-      "dept": "SBGL",
-      "dest": "SBAR",
-      "acft": "Jet only",
-      "route": "IMBAP UZ42 SIRAP DCT ESMOX DCT ARU DCT",
       "notes": ""
     },
     {
@@ -2106,6 +2085,13 @@
       "dest": "SBSP",
       "acft": "Jet only",
       "route": "NAXOP UZ45 IBDAL",
+      "notes": ""
+    },
+    {
+      "dept": "SBGL",
+      "dest": "SBGR",
+      "acft": "Jet only",
+      "route": "SIDUR UZ10 EDMUS",
       "notes": ""
     },
     {
@@ -2138,6 +2124,13 @@
     },
     {
       "dept": "SBGL",
+      "dest": "SBCF",
+      "acft": "Jet only",
+      "route": "DAKDA UZ4 TOKUR",
+      "notes": ""
+    },
+    {
+      "dept": "SBGL",
       "dest": "SBRF",
       "acft": "Jet only",
       "route": "IMBAP UZ42 ANBEX",
@@ -2152,23 +2145,9 @@
     },
     {
       "dept": "SBGL",
-      "dest": "SBCF",
-      "acft": "Jet only",
-      "route": "DAKDA UZ4 TOKUR",
-      "notes": ""
-    },
-    {
-      "dept": "SBGL",
       "dest": "SBBR",
       "acft": "Jet only",
       "route": "EDNAM UM409 ISIPI",
-      "notes": ""
-    },
-    {
-      "dept": "SBGL",
-      "dest": "SBFZ",
-      "acft": "Jet only",
-      "route": "IMBAP UZ1 DOTKU",
       "notes": ""
     },
     {
@@ -2190,6 +2169,13 @@
       "dest": "SBCT",
       "acft": "Jet only",
       "route": "NAXOP UZ45 RAXIT",
+      "notes": ""
+    },
+    {
+      "dept": "SBGL",
+      "dest": "SBFZ",
+      "acft": "Jet only",
+      "route": "IMBAP UZ1 DOTKU",
       "notes": ""
     },
     {
@@ -2229,6 +2215,13 @@
     },
     {
       "dept": "SBGL",
+      "dest": "SBTE",
+      "acft": "Jet only",
+      "route": "DAKDA UZ4 ERVOB DCT KIKET DCT GUEST DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBGL",
       "dest": "SBMO",
       "acft": "Jet only",
       "route": "IMBAP UZ42 GERSO DCT MCE",
@@ -2236,16 +2229,9 @@
     },
     {
       "dept": "SBGL",
-      "dest": "SBPS",
+      "dest": "SBAR",
       "acft": "Jet only",
-      "route": "IMBAP UZ42 SIRAP DCT OSUNO",
-      "notes": ""
-    },
-    {
-      "dept": "SBGL",
-      "dest": "SBGR",
-      "acft": "Jet only",
-      "route": "SIDUR UZ10 EDMUS",
+      "route": "IMBAP UZ42 SIRAP DCT ESMOX DCT ARU DCT",
       "notes": ""
     },
     {
@@ -2260,6 +2246,13 @@
       "dest": "SBIL",
       "acft": "Jet only",
       "route": "IMBAP UZ42 XUXUG DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBGL",
+      "dest": "SBPS",
+      "acft": "Jet only",
+      "route": "IMBAP UZ42 SIRAP DCT OSUNO",
       "notes": ""
     },
     {
@@ -2284,10 +2277,10 @@
       "notes": ""
     },
     {
-      "dept": "SBGO",
-      "dest": "SBPJ",
+      "dept": "SBGL",
+      "dest": "SBSR",
       "acft": "Jet only",
-      "route": "LODUV DCT EROPO DCT LIBEC",
+      "route": "ENSOD UM409 EDNAM UM409 MUDKA DCT MALMO DCT VIANA DCT ASTOB DCT",
       "notes": ""
     },
     {
@@ -2299,6 +2292,13 @@
     },
     {
       "dept": "SBGO",
+      "dest": "SBPJ",
+      "acft": "Jet only",
+      "route": "LODUV DCT EROPO DCT LIBEC",
+      "notes": ""
+    },
+    {
+      "dept": "SBGO",
       "dest": "SBMO",
       "acft": "Jet only",
       "route": "LODUV DCT MUDBI DCT UGTAK UZ19 EPGEM DCT DOBLA DCT ANDIG DCT",
@@ -2306,16 +2306,16 @@
     },
     {
       "dept": "SBGO",
-      "dest": "SBGL",
+      "dest": "SBSP",
       "acft": "Jet only",
-      "route": "ESBOD UZ31 ILPAV DCT TEDER UZ24 MAVGU",
+      "route": "ESBOD DCT ISISA DCT UTLOT",
       "notes": ""
     },
     {
       "dept": "SBGO",
-      "dest": "SBSP",
+      "dest": "SBGL",
       "acft": "Jet only",
-      "route": "ESBOD DCT ISISA DCT UTLOT",
+      "route": "ESBOD UZ31 ILPAV DCT TEDER UZ24 MAVGU",
       "notes": ""
     },
     {
@@ -2390,13 +2390,6 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBPV",
-      "acft": "Jet only",
-      "route": "GERTU UL201 PANAB DCT RODAD DCT ISUGO DCT DIKAL DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBGR",
       "dest": "SBRJ",
       "acft": "Jet only",
       "route": "NIBRU UZ171 KEVUN",
@@ -2404,9 +2397,9 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBVT",
+      "dest": "SBPV",
       "acft": "Jet only",
-      "route": "UREMI UZ42 IMDAB DCT SEGLI DCT TODET",
+      "route": "GERTU UL201 PANAB DCT RODAD DCT ISUGO DCT DIKAL DCT",
       "notes": ""
     },
     {
@@ -2425,30 +2418,9 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBSV",
+      "dest": "SBJU",
       "acft": "Jet only",
-      "route": "VUMEV UZ14 ZUMBA",
-      "notes": ""
-    },
-    {
-      "dept": "SBGR",
-      "dest": "SBBE",
-      "acft": "Jet only",
-      "route": "ISMOB UZ26 IROMU",
-      "notes": ""
-    },
-    {
-      "dept": "SBGR",
-      "dest": "SBFI",
-      "acft": "Jet only",
-      "route": "ASETA UZ152 UPORU",
-      "notes": ""
-    },
-    {
-      "dept": "SBGR",
-      "dest": "SBMG",
-      "acft": "Jet only",
-      "route": "ASETA UZ152 UKLEN DCT",
+      "route": "NUXEL UZ23 UTLEV UZ88 LOMAB DCT ANBUM DCT",
       "notes": ""
     },
     {
@@ -2460,6 +2432,13 @@
     },
     {
       "dept": "SBGR",
+      "dest": "SBMG",
+      "acft": "Jet only",
+      "route": "ASETA UZ152 UKLEN DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBGR",
       "dest": "SBFZ",
       "acft": "Jet only",
       "route": "NUXEL UZ23 UTLEV UZ88 DOTKU",
@@ -2467,9 +2446,9 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBJU",
+      "dest": "SBVT",
       "acft": "Jet only",
-      "route": "NUXEL UZ23 UTLEV UZ88 LOMAB DCT ANBUM DCT",
+      "route": "UREMI UZ42 IMDAB DCT SEGLI DCT TODET",
       "notes": ""
     },
     {
@@ -2481,9 +2460,9 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBCY",
+      "dest": "SBSV",
       "acft": "Jet only",
-      "route": "GERTU UL201 PANAB DCT RODAD UM775 SINIP",
+      "route": "VUMEV UZ14 ZUMBA",
       "notes": ""
     },
     {
@@ -2498,6 +2477,20 @@
       "dest": "SBCF",
       "acft": "Jet only",
       "route": "NUXEL UZ23 KIBAP",
+      "notes": ""
+    },
+    {
+      "dept": "SBGR",
+      "dest": "SBBE",
+      "acft": "Jet only",
+      "route": "ISMOB UZ26 IROMU",
+      "notes": ""
+    },
+    {
+      "dept": "SBGR",
+      "dest": "SBFI",
+      "acft": "Jet only",
+      "route": "ASETA UZ152 UPORU",
       "notes": ""
     },
     {
@@ -2537,9 +2530,9 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBRF",
+      "dest": "SBSR",
       "acft": "Jet only",
-      "route": "VUMEV UZ14 AKPAS DCT ANBEX",
+      "route": "GERTU UL201 UPONA DCT",
       "notes": ""
     },
     {
@@ -2551,16 +2544,16 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBSG",
+      "dest": "SBRF",
       "acft": "Jet only",
-      "route": "VUMEV UZ14 ENVOG UZ1 LODOT UZ72 TOGUN",
+      "route": "VUMEV UZ14 AKPAS DCT ANBEX",
       "notes": ""
     },
     {
       "dept": "SBGR",
-      "dest": "SBSR",
+      "dest": "SBSG",
       "acft": "Jet only",
-      "route": "GERTU UL201 UPONA DCT",
+      "route": "VUMEV UZ14 ENVOG UZ1 LODOT UZ72 TOGUN",
       "notes": ""
     },
     {
@@ -2586,13 +2579,6 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBFL",
-      "acft": "Jet only",
-      "route": "MADNI UZ92 PUBIS",
-      "notes": ""
-    },
-    {
-      "dept": "SBGR",
       "dest": "SBEG",
       "acft": "Jet only",
       "route": "GERTU UM417 EVRIV DCT PUDKA DCT MATNA DCT IRUMO",
@@ -2600,16 +2586,9 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBLO",
+      "dest": "SBFL",
       "acft": "Jet only",
-      "route": "EGEVA UZ58 UMPIG DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBGR",
-      "dest": "SBMO",
-      "acft": "Jet only",
-      "route": "VUMEV UZ14 GERSO DCT",
+      "route": "MADNI UZ92 PUBIS",
       "notes": ""
     },
     {
@@ -2621,9 +2600,23 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBUL",
+      "dest": "SBLO",
       "acft": "Jet only",
-      "route": "ISMOB UZ26 KEXIT DCT",
+      "route": "EGEVA UZ58 UMPIG DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBGR",
+      "dest": "SBKP",
+      "acft": "Any",
+      "route": "VUMEV DCT ENTIT",
+      "notes": ""
+    },
+    {
+      "dept": "SBGR",
+      "dest": "SBMO",
+      "acft": "Jet only",
+      "route": "VUMEV UZ14 GERSO DCT",
       "notes": ""
     },
     {
@@ -2635,16 +2628,16 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBPL",
+      "dest": "SBUL",
       "acft": "Jet only",
-      "route": "NUXEL UZ23 UTLEV UZ88 REBAM DCT",
+      "route": "ISMOB UZ26 KEXIT DCT",
       "notes": ""
     },
     {
       "dept": "SBGR",
-      "dest": "SBAR",
+      "dest": "SBPL",
       "acft": "Jet only",
-      "route": "VUMEV UZ14 ESMOX DCT",
+      "route": "NUXEL UZ23 UTLEV UZ88 REBAM DCT",
       "notes": ""
     },
     {
@@ -2656,9 +2649,23 @@
     },
     {
       "dept": "SBGR",
+      "dest": "SBAR",
+      "acft": "Jet only",
+      "route": "VUMEV UZ14 ESMOX DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBGR",
       "dest": "SBIZ",
       "acft": "Jet only",
       "route": "ISMOB UZ26 URALU/N0450F330 DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBGR",
+      "dest": "SBCY",
+      "acft": "Jet only",
+      "route": "GERTU UL201 PANAB DCT RODAD UM775 SINIP",
       "notes": ""
     },
     {
@@ -2671,13 +2678,6 @@
     {
       "dept": "SBGR",
       "dest": "SBCH",
-      "acft": "Jet only",
-      "route": "SOVSI UZ85 RAXIT DCT UMDOR DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBGR",
-      "dest": "SBPF",
       "acft": "Jet only",
       "route": "SOVSI UZ85 RAXIT DCT UMDOR DCT",
       "notes": ""
@@ -2705,9 +2705,9 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBMK",
+      "dest": "SBPF",
       "acft": "Jet only",
-      "route": "NUXEL UZ23 UTLEV UZ88 PABES DCT",
+      "route": "SOVSI UZ85 RAXIT DCT UMDOR DCT",
       "notes": ""
     },
     {
@@ -2726,16 +2726,16 @@
     },
     {
       "dept": "SBGR",
-      "dest": "SBBV",
+      "dest": "SBMK",
       "acft": "Jet only",
-      "route": "GERTU UM423 ISTOK DCT BVI DCT",
+      "route": "NUXEL UZ23 UTLEV UZ88 PABES DCT",
       "notes": ""
     },
     {
       "dept": "SBGR",
-      "dest": "SBJV",
+      "dest": "SBBV",
       "acft": "Jet only",
-      "route": "SOVSI UZ85 RAXIT",
+      "route": "GERTU UM423 ISTOK DCT BVI DCT",
       "notes": ""
     },
     {
@@ -2750,6 +2750,13 @@
       "dest": "SBRB",
       "acft": "Jet only",
       "route": "GERTU UL201 UMDUM UM775 SILIC DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBGR",
+      "dest": "SBJV",
+      "acft": "Jet only",
+      "route": "SOVSI UZ85 RAXIT",
       "notes": ""
     },
     {
@@ -2978,13 +2985,6 @@
     },
     {
       "dept": "SBJP",
-      "dest": "SBCF",
-      "acft": "Jet only",
-      "route": "UDOSA UZ21 OPTEB",
-      "notes": ""
-    },
-    {
-      "dept": "SBJP",
       "dest": "SBUL",
       "acft": "Jet only",
       "route": "KUKES UZ59 VUSTI DCT MUBAP DCT ALETA DCT AZOIC DCT",
@@ -2992,23 +2992,16 @@
     },
     {
       "dept": "SBJP",
+      "dest": "SBCF",
+      "acft": "Jet only",
+      "route": "UDOSA UZ21 OPTEB",
+      "notes": ""
+    },
+    {
+      "dept": "SBJP",
       "dest": "SBRF",
       "acft": "Any",
       "route": "DCT IBDEM",
-      "notes": ""
-    },
-    {
-      "dept": "SBJR",
-      "dest": "SBKP",
-      "acft": "Prop only",
-      "route": "REA 2318S04427W/N0155F100 IFR DCT DORLU DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBJR",
-      "dest": "SBCF",
-      "acft": "Prop only",
-      "route": "REA 2302S04322W DCT 2314S04407W/N0155F110 IFR DCT EPGIP DCT PAI DCT PAGIG/N0155F090 DCT XONOK DCT 2028S04352W DCT",
       "notes": ""
     },
     {
@@ -3041,16 +3034,16 @@
     },
     {
       "dept": "SBJV",
-      "dest": "SBGR",
+      "dest": "SBSP",
       "acft": "Jet only",
-      "route": "DCT ASGOL UZ121 BUXUK",
+      "route": "DULIA UM400 KOXAG UM540 ANISE",
       "notes": ""
     },
     {
       "dept": "SBJV",
-      "dest": "SBSP",
+      "dest": "SBGR",
       "acft": "Jet only",
-      "route": "DULIA UM400 KOXAG UM540 ANISE",
+      "route": "DCT ASGOL UZ121 BUXUK",
       "notes": ""
     },
     {
@@ -3090,6 +3083,13 @@
     },
     {
       "dept": "SBKP",
+      "dest": "SBSR",
+      "acft": "Jet only",
+      "route": "GERTU DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBKP",
       "dest": "SBRJ",
       "acft": "Jet only",
       "route": "NIBRU UZ171 KEVUN",
@@ -3111,16 +3111,16 @@
     },
     {
       "dept": "SBKP",
-      "dest": "SBBR",
+      "dest": "SBCF",
       "acft": "Jet only",
-      "route": "ISMOB UZ26 AZOIC",
+      "route": "KONVI UZ23 KIBAP",
       "notes": ""
     },
     {
       "dept": "SBKP",
-      "dest": "SBCF",
+      "dest": "SBBR",
       "acft": "Jet only",
-      "route": "KONVI UZ23 KIBAP",
+      "route": "ISMOB UZ26 AZOIC",
       "notes": ""
     },
     {
@@ -3139,13 +3139,6 @@
     },
     {
       "dept": "SBKP",
-      "dest": "SBDN",
-      "acft": "Any",
-      "route": "EGEVA DCT DEXOV DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBKP",
       "dest": "SBEG",
       "acft": "Jet only",
       "route": "VUPOG UM417 UMGUP DCT IRUMO",
@@ -3153,9 +3146,9 @@
     },
     {
       "dept": "SBKP",
-      "dest": "SBJP",
-      "acft": "Jet only",
-      "route": "KONVI UZ23 ANBEX DCT",
+      "dest": "SBDN",
+      "acft": "Any",
+      "route": "EGEVA DCT DEXOV DCT",
       "notes": ""
     },
     {
@@ -3163,6 +3156,13 @@
       "dest": "SBMG",
       "acft": "Any",
       "route": "ASETA Z59 LON DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBKP",
+      "dest": "SBJP",
+      "acft": "Jet only",
+      "route": "KONVI UZ23 ANBEX DCT",
       "notes": ""
     },
     {
@@ -3209,21 +3209,7 @@
     },
     {
       "dept": "SBKP",
-      "dest": "SBRF",
-      "acft": "Jet only",
-      "route": "KONVI UZ23 ANBEX",
-      "notes": ""
-    },
-    {
-      "dept": "SBKP",
       "dest": "SBSR",
-      "acft": "Any",
-      "route": "KP179 DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBKP",
-      "dest": "SBUL",
       "acft": "Any",
       "route": "KP179 DCT",
       "notes": ""
@@ -3233,6 +3219,13 @@
       "dest": "SBCT",
       "acft": "Jet only",
       "route": "SOVSI UZ85 RAXIT",
+      "notes": ""
+    },
+    {
+      "dept": "SBKP",
+      "dest": "SBUL",
+      "acft": "Any",
+      "route": "KP179 DCT",
       "notes": ""
     },
     {
@@ -3251,6 +3244,13 @@
     },
     {
       "dept": "SBKP",
+      "dest": "SBRF",
+      "acft": "Jet only",
+      "route": "KONVI UZ23 ANBEX",
+      "notes": ""
+    },
+    {
+      "dept": "SBKP",
       "dest": "SBGL",
       "acft": "Jet only",
       "route": "UREMI UZ42 VUREP",
@@ -3265,16 +3265,16 @@
     },
     {
       "dept": "SBKP",
-      "dest": "SBCY",
+      "dest": "SBTE",
       "acft": "Jet only",
-      "route": "GERTU UL201 ROBID DCT RODAD UM775 SINIP",
+      "route": "ISMOB UZ26 BIXAN/N0450F390 DCT EGDUP DCT SARNU DCT ASOLI DCT GUEST DCT",
       "notes": ""
     },
     {
       "dept": "SBKP",
-      "dest": "SBTE",
+      "dest": "SBCY",
       "acft": "Jet only",
-      "route": "ISMOB UZ26 BIXAN/N0450F390 DCT EGDUP DCT SARNU DCT ASOLI DCT GUEST DCT",
+      "route": "GERTU UL201 ROBID DCT RODAD UM775 SINIP",
       "notes": ""
     },
     {
@@ -3328,16 +3328,16 @@
     },
     {
       "dept": "SBKP",
-      "dest": "SBDB",
+      "dest": "SBCH",
       "acft": "Jet only",
-      "route": "EGEVA UM415 ANGIP DCT SINIL DCT",
+      "route": "ASETA UL310 USVIP DCT NIRDA DCT",
       "notes": ""
     },
     {
       "dept": "SBKP",
-      "dest": "SBCH",
+      "dest": "SBDB",
       "acft": "Jet only",
-      "route": "ASETA UL310 USVIP DCT NIRDA DCT",
+      "route": "EGEVA UM415 ANGIP DCT SINIL DCT",
       "notes": ""
     },
     {
@@ -3405,23 +3405,9 @@
     },
     {
       "dept": "SBKP",
-      "dest": "SBJR",
-      "acft": "Prop only",
-      "route": "DCT DORLU DCT 2318S04427W/N0150VFR VFR REA",
-      "notes": ""
-    },
-    {
-      "dept": "SBKP",
       "dest": "SBSG",
       "acft": "Jet only",
       "route": "KONVI UZ23 ILPIR UZ72 TOGUN",
-      "notes": ""
-    },
-    {
-      "dept": "SBKP",
-      "dest": "SBUL",
-      "acft": "Jet only",
-      "route": "ISMOB UZ26 KEXIT DCT",
       "notes": ""
     },
     {
@@ -3503,16 +3489,16 @@
     },
     {
       "dept": "SBKP",
-      "dest": "SBJI",
+      "dest": "SSKW",
       "acft": "Jet only",
-      "route": "VUPOG UM775 RODAD DCT ANGOV DCT BUVAG DCT",
+      "route": "VUPOG UM775 RODAD DCT DABUN DCT",
       "notes": ""
     },
     {
       "dept": "SBKP",
-      "dest": "SSKW",
+      "dest": "SBJI",
       "acft": "Jet only",
-      "route": "VUPOG UM775 RODAD DCT DABUN DCT",
+      "route": "VUPOG UM775 RODAD DCT ANGOV DCT BUVAG DCT",
       "notes": ""
     },
     {
@@ -3555,6 +3541,13 @@
       "dest": "SBML",
       "acft": "Any",
       "route": "OBLUG DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBKP",
+      "dest": "SNBA",
+      "acft": "Prop only",
+      "route": "DCT GENBI DCT MEVUT/N0155F090 DCT LOKAR DCT 2043S04834W/N0155F075 VFR DCT",
       "notes": ""
     },
     {
@@ -3643,16 +3636,16 @@
     },
     {
       "dept": "SBMG",
-      "dest": "SBKP",
-      "acft": "Any",
-      "route": "AKTIT DCT ESILO DCT UTLOT",
+      "dest": "SBSP",
+      "acft": "Jet only",
+      "route": "AKTIT DCT IMTBI DCT UTLOT",
       "notes": ""
     },
     {
       "dept": "SBMG",
-      "dest": "SBSP",
-      "acft": "Jet only",
-      "route": "AKTIT DCT IMTBI DCT UTLOT",
+      "dest": "SBKP",
+      "acft": "Any",
+      "route": "AKTIT DCT ESILO DCT UTLOT",
       "notes": ""
     },
     {
@@ -3916,13 +3909,6 @@
     },
     {
       "dept": "SBPA",
-      "dest": "SBSV",
-      "acft": "Jet only",
-      "route": "UBNUT UN857 UDIRA UZ1 ENVOG UZ14 ZUMBA",
-      "notes": ""
-    },
-    {
-      "dept": "SBPA",
       "dest": "SBBR",
       "acft": "Jet only",
       "route": "PENSO UZ5 VUDOT",
@@ -3937,16 +3923,16 @@
     },
     {
       "dept": "SBPA",
-      "dest": "SBKP",
+      "dest": "SBSP",
       "acft": "Jet only",
-      "route": "PENSO UZ132 EDRAT",
+      "route": "ANLER UM540 ANISE",
       "notes": ""
     },
     {
       "dept": "SBPA",
-      "dest": "SBSP",
+      "dest": "SBKP",
       "acft": "Jet only",
-      "route": "ANLER UM540 ANISE",
+      "route": "PENSO UZ132 EDRAT",
       "notes": ""
     },
     {
@@ -3972,16 +3958,16 @@
     },
     {
       "dept": "SBPA",
-      "dest": "SBPK",
+      "dest": "SBNM",
       "acft": "Any",
-      "route": "TEMEK DCT",
+      "route": "SUSKI DCT",
       "notes": ""
     },
     {
       "dept": "SBPA",
-      "dest": "SBNM",
+      "dest": "SBPK",
       "acft": "Any",
-      "route": "SUSKI DCT",
+      "route": "TEMEK DCT",
       "notes": ""
     },
     {
@@ -4077,6 +4063,13 @@
     },
     {
       "dept": "SBPK",
+      "dest": "SBSJ",
+      "acft": "Jet only",
+      "route": "TEMEK DCT ARVUS UM540 ANISE",
+      "notes": ""
+    },
+    {
+      "dept": "SBPK",
       "dest": "SBPA",
       "acft": "Any",
       "route": "DCT TOGEK",
@@ -4119,16 +4112,16 @@
     },
     {
       "dept": "SBPL",
-      "dest": "SBSV",
+      "dest": "SBRF",
       "acft": "Jet only",
-      "route": "DCT EDMUP DCT DORMU",
+      "route": "DCT VUGID DCT MUDAR",
       "notes": ""
     },
     {
       "dept": "SBPL",
-      "dest": "SBRF",
+      "dest": "SBSV",
       "acft": "Jet only",
-      "route": "DCT VUGID DCT MUDAR",
+      "route": "DCT EDMUP DCT DORMU",
       "notes": ""
     },
     {
@@ -4164,13 +4157,6 @@
       "dest": "SBGR",
       "acft": "Jet only",
       "route": "EDRAG DCT POSMU DCT REDAD UZ21 VUNOX",
-      "notes": ""
-    },
-    {
-      "dept": "SBPS",
-      "dest": "SBGL",
-      "acft": "Jet only",
-      "route": "XUVUD UN857 MOLSU",
       "notes": ""
     },
     {
@@ -4252,16 +4238,16 @@
     },
     {
       "dept": "SBPS",
-      "dest": "SBBR",
+      "dest": "SBGL",
       "acft": "Jet only",
-      "route": "MUKOS DCT EVPIV DCT DALMU",
+      "route": "DCT XUVUD UN857 MOLSU DCT",
       "notes": ""
     },
     {
       "dept": "SBPS",
-      "dest": "SBGL",
+      "dest": "SBBR",
       "acft": "Jet only",
-      "route": "DCT XUVUD UN857 MOLSU DCT",
+      "route": "MUKOS DCT EVPIV DCT DALMU",
       "notes": ""
     },
     {
@@ -4329,6 +4315,13 @@
     },
     {
       "dept": "SBPV",
+      "dest": "SBRB",
+      "acft": "Jet only",
+      "route": "UZ74",
+      "notes": ""
+    },
+    {
+      "dept": "SBPV",
       "dest": "SBEG",
       "acft": "Any",
       "route": "ISURA DCT IGAPO",
@@ -4353,6 +4346,13 @@
       "dest": "SBCZ",
       "acft": "Jet only",
       "route": "AERON DCT DADKI DCT CZS",
+      "notes": ""
+    },
+    {
+      "dept": "SBRB",
+      "dest": "SBPV",
+      "acft": "Jet only",
+      "route": "UZ74",
       "notes": ""
     },
     {
@@ -4448,16 +4448,16 @@
     },
     {
       "dept": "SBRF",
-      "dest": "SBCF",
+      "dest": "SBSP",
       "acft": "Jet only",
-      "route": "UDOSA UZ21 OPTEB",
+      "route": "GAVAK UZ30 ENTIT",
       "notes": ""
     },
     {
       "dept": "SBRF",
-      "dest": "SBSP",
+      "dest": "SBCF",
       "acft": "Jet only",
-      "route": "GAVAK UZ30 ENTIT",
+      "route": "UDOSA UZ21 OPTEB",
       "notes": ""
     },
     {
@@ -4528,13 +4528,6 @@
       "dest": "SNTS",
       "acft": "Prop only",
       "route": "DCT 0711S03655W/N0150F065 VFR DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBRF",
-      "dest": "SBAR",
-      "acft": "Prop only",
-      "route": "DCT UKARI DCT MCE DCT DENDO DCT",
       "notes": ""
     },
     {
@@ -4618,14 +4611,14 @@
       "dept": "SBRJ",
       "dest": "SBCF",
       "acft": "Jet only",
-      "route": "DAKDA UZ4 TOKUR",
+      "route": "DAKDA DCT TOKUR",
       "notes": ""
     },
     {
       "dept": "SBRJ",
       "dest": "SBCF",
       "acft": "Jet only",
-      "route": "DAKDA DCT TOKUR",
+      "route": "DAKDA UZ4 TOKUR",
       "notes": ""
     },
     {
@@ -4666,15 +4659,15 @@
     {
       "dept": "SBRP",
       "dest": "SBSP",
-      "acft": "Any",
-      "route": "DCT LOKAR/N0400F230 DCT UTLOT",
+      "acft": "Jet only",
+      "route": "DCT LOKAR DCT UTLOT",
       "notes": ""
     },
     {
       "dept": "SBRP",
       "dest": "SBSP",
-      "acft": "Jet only",
-      "route": "DCT LOKAR DCT UTLOT",
+      "acft": "Any",
+      "route": "DCT LOKAR/N0400F230 DCT UTLOT",
       "notes": ""
     },
     {
@@ -4763,16 +4756,16 @@
     },
     {
       "dept": "SBSG",
-      "dest": "SBRP",
+      "dest": "SBDN",
       "acft": "Jet only",
-      "route": "OPVAR DCT EGIKO DCT ERVOB DCT NITGI DCT KEXIT DCT",
+      "route": "OPVAR DCT UMGIS DCT ERVOB DCT ALBUM DCT IVROP DCT UPONA DCT EDSED DCT",
       "notes": ""
     },
     {
       "dept": "SBSG",
-      "dest": "SBDN",
+      "dest": "SBRP",
       "acft": "Jet only",
-      "route": "OPVAR DCT UMGIS DCT ERVOB DCT ALBUM DCT IVROP DCT UPONA DCT EDSED DCT",
+      "route": "OPVAR DCT EGIKO DCT ERVOB DCT NITGI DCT KEXIT DCT",
       "notes": ""
     },
     {
@@ -4903,9 +4896,9 @@
     },
     {
       "dept": "SBSL",
-      "dest": "SBSP",
+      "dest": "SBRF",
       "acft": "Jet only",
-      "route": "ISKAB UZ2 PULUV/N0458F370 UZ2 ENTIT",
+      "route": "KADOT DCT VULBU DCT POVPO DCT NEKAL DCT KIMOK",
       "notes": ""
     },
     {
@@ -4917,9 +4910,9 @@
     },
     {
       "dept": "SBSL",
-      "dest": "SBRF",
+      "dest": "SBSP",
       "acft": "Jet only",
-      "route": "KADOT DCT VULBU DCT POVPO DCT NEKAL DCT KIMOK",
+      "route": "ISKAB UZ2 PULUV/N0458F370 UZ2 ENTIT",
       "notes": ""
     },
     {
@@ -5022,23 +5015,9 @@
     },
     {
       "dept": "SBSP",
-      "dest": "SBLO",
+      "dest": "SBPA",
       "acft": "Jet only",
-      "route": "EGEVA UZ58 UMPIG DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBSP",
-      "dest": "SBCG",
-      "acft": "Jet only",
-      "route": "EGEVA UM415 FIGOS",
-      "notes": ""
-    },
-    {
-      "dept": "SBSP",
-      "dest": "SBAR",
-      "acft": "Jet only",
-      "route": "NUXEL UZ23 ELBOS DCT",
+      "route": "UBSOD UZ38 VUKMO",
       "notes": ""
     },
     {
@@ -5050,6 +5029,34 @@
     },
     {
       "dept": "SBSP",
+      "dest": "SBAR",
+      "acft": "Jet only",
+      "route": "NUXEL UZ23 ELBOS DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBSP",
+      "dest": "SBCG",
+      "acft": "Jet only",
+      "route": "EGEVA UM415 FIGOS",
+      "notes": ""
+    },
+    {
+      "dept": "SBSP",
+      "dest": "SBLO",
+      "acft": "Jet only",
+      "route": "EGEVA UZ58 UMPIG DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBSP",
+      "dest": "SBDN",
+      "acft": "Jet only",
+      "route": "EGEVA UM415 PRR DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBSP",
       "dest": "SBMG",
       "acft": "Jet only",
       "route": "ASETA UM415 EGEVA UZ58 LON DCT",
@@ -5057,9 +5064,9 @@
     },
     {
       "dept": "SBSP",
-      "dest": "SBMO",
+      "dest": "SBMG",
       "acft": "Jet only",
-      "route": "VUMEV UZ14 GERSO DCT",
+      "route": "EGEVA UZ58 LON DCT",
       "notes": ""
     },
     {
@@ -5071,6 +5078,13 @@
     },
     {
       "dept": "SBSP",
+      "dest": "SBSR",
+      "acft": "Jet only",
+      "route": "GERTU UL201 UPONA DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBSP",
       "dest": "SBPA",
       "acft": "Jet only",
       "route": "UBSOD UZ38 UMDEX/N0439F360 UZ38 VUKMO",
@@ -5078,16 +5092,23 @@
     },
     {
       "dept": "SBSP",
-      "dest": "SBCT",
+      "dest": "SBSV",
       "acft": "Jet only",
-      "route": "SOVSI UZ85 RAXIT",
+      "route": "VUMEV UZ14 ZUMBA",
       "notes": ""
     },
     {
       "dept": "SBSP",
-      "dest": "SBSV",
+      "dest": "SBLO",
       "acft": "Jet only",
-      "route": "VUMEV UZ14 ZUMBA",
+      "route": "ASETA UM415 EGEVA UZ58 UMPIG DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBSP",
+      "dest": "SBCT",
+      "acft": "Jet only",
+      "route": "SOVSI UZ85 RAXIT",
       "notes": ""
     },
     {
@@ -5120,9 +5141,30 @@
     },
     {
       "dept": "SBSP",
+      "dest": "SBRP",
+      "acft": "Jet only",
+      "route": "GERTU UZ25 KOMTO DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBSP",
       "dest": "SBSL",
       "acft": "Jet only",
       "route": "GERTU UZ25 SEKPO UZ5 PULUV DCT UTNUX UZ2 SLI DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBSP",
+      "dest": "SBUL",
+      "acft": "Jet only",
+      "route": "GERTU UZ25 IVROP DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBSP",
+      "dest": "SBMO",
+      "acft": "Jet only",
+      "route": "VUMEV UZ14 GERSO DCT",
       "notes": ""
     },
     {
@@ -5157,13 +5199,6 @@
       "dept": "SBSP",
       "dest": "SBPA",
       "acft": "Jet only",
-      "route": "UBSOD UZ38 VUKMO",
-      "notes": ""
-    },
-    {
-      "dept": "SBSP",
-      "dest": "SBPA",
-      "acft": "Jet only",
       "route": "UBSOD UZ38 ARTUT/N0458F360 UZ38 VUKMO",
       "notes": ""
     },
@@ -5172,20 +5207,6 @@
       "dest": "SBFL",
       "acft": "Jet only",
       "route": "MADNI UZ92 PUBIS",
-      "notes": ""
-    },
-    {
-      "dept": "SBSP",
-      "dest": "SBRP",
-      "acft": "Jet only",
-      "route": "GERTU UZ25 KOMTO DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBSP",
-      "dest": "SBSR",
-      "acft": "Jet only",
-      "route": "GERTU UL201 UPONA DCT",
       "notes": ""
     },
     {
@@ -5239,20 +5260,6 @@
     },
     {
       "dept": "SBSP",
-      "dest": "SBLO",
-      "acft": "Jet only",
-      "route": "ASETA UM415 EGEVA UZ58 UMPIG DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBSP",
-      "dest": "SBUL",
-      "acft": "Jet only",
-      "route": "GERTU UZ25 IVROP DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBSP",
       "dest": "SBSL",
       "acft": "Jet only",
       "route": "NUXEL UZ23 ILPIR UZ4 SLI DCT",
@@ -5295,13 +5302,6 @@
     },
     {
       "dept": "SBSP",
-      "dest": "SBMG",
-      "acft": "Jet only",
-      "route": "EGEVA UZ58 LON DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBSP",
       "dest": "SBDB",
       "acft": "Jet only",
       "route": "EGEVA DCT SINIL DCT",
@@ -5323,16 +5323,23 @@
     },
     {
       "dept": "SBSP",
-      "dest": "SBDN",
-      "acft": "Jet only",
-      "route": "EGEVA UM415 PRR DCT",
-      "notes": ""
-    },
-    {
-      "dept": "SBSP",
       "dest": "SBTE",
       "acft": "Jet only",
       "route": "NUXEL UZ23 UTLEV UZ88 PABES UZ4 ANLAK UZ5 PAMUB DCT",
+      "notes": ""
+    },
+    {
+      "dept": "SBSR",
+      "dest": "SBKP",
+      "acft": "Jet only",
+      "route": "DCT UPONA DCT UTLOT",
+      "notes": ""
+    },
+    {
+      "dept": "SBSR",
+      "dest": "SBGL",
+      "acft": "Jet only",
+      "route": "DCT VUPOG DCT VIANA DCT MALMO UZ24 MAVGU",
       "notes": ""
     },
     {
@@ -5354,6 +5361,13 @@
       "dest": "SBCY",
       "acft": "Any",
       "route": "DCT ASDOV DCT RODAD DCT SINIP",
+      "notes": ""
+    },
+    {
+      "dept": "SBSR",
+      "dest": "SBSP",
+      "acft": "Jet only",
+      "route": "UPONA DCT UTLOT",
       "notes": ""
     },
     {
@@ -5386,13 +5400,6 @@
     },
     {
       "dept": "SBSR",
-      "dest": "SBSP",
-      "acft": "Jet only",
-      "route": "UPONA DCT UTLOT",
-      "notes": ""
-    },
-    {
-      "dept": "SBSR",
       "dest": "SBMO",
       "acft": "Jet only",
       "route": "DCT VULPA DCT BUSDU DCT OROPA DCT URUVA DCT DABAD DCT ANDIG DCT",
@@ -5407,9 +5414,9 @@
     },
     {
       "dept": "SBSV",
-      "dest": "SBFZ",
+      "dest": "SBCF",
       "acft": "Jet only",
-      "route": "FROTI UZ77 ILRIB DCT DOTKU",
+      "route": "GILDO UZ21 OPTEB",
       "notes": ""
     },
     {
@@ -5421,9 +5428,9 @@
     },
     {
       "dept": "SBSV",
-      "dest": "SBPA",
+      "dest": "SBFZ",
       "acft": "Jet only",
-      "route": "GILDO UZ21 VUNOX UZ38 VUKMO",
+      "route": "FROTI UZ77 ILRIB DCT DOTKU",
       "notes": ""
     },
     {
@@ -5435,23 +5442,9 @@
     },
     {
       "dept": "SBSV",
-      "dest": "SBCF",
-      "acft": "Jet only",
-      "route": "GILDO UZ21 OPTEB",
-      "notes": ""
-    },
-    {
-      "dept": "SBSV",
       "dest": "SBKG",
       "acft": "Jet only",
       "route": "ASGIK UZ73 EDRIM UZ84 ASEVA DCT CPG",
-      "notes": ""
-    },
-    {
-      "dept": "SBSV",
-      "dest": "SBPL",
-      "acft": "Jet only",
-      "route": "BOGUT DCT SIPIR",
       "notes": ""
     },
     {
@@ -5470,16 +5463,16 @@
     },
     {
       "dept": "SBSV",
-      "dest": "SBRF",
+      "dest": "SBSG",
       "acft": "Jet only",
-      "route": "ARURU DCT ILTAT UZ23 ANBEX",
+      "route": "ASGIK UZ73 ESMIG UZ72 TOGUN",
       "notes": ""
     },
     {
       "dept": "SBSV",
-      "dest": "SBSG",
+      "dest": "SBRF",
       "acft": "Jet only",
-      "route": "ASGIK UZ73 ESMIG UZ72 TOGUN",
+      "route": "ARURU DCT ILTAT UZ23 ANBEX",
       "notes": ""
     },
     {
@@ -5491,16 +5484,16 @@
     },
     {
       "dept": "SBSV",
-      "dest": "SBRF",
+      "dest": "SBBR",
       "acft": "Jet only",
-      "route": "ILTAT UZ23 ANBEX",
+      "route": "ARNOX UZ17 DALMU",
       "notes": ""
     },
     {
       "dept": "SBSV",
-      "dest": "SBBR",
+      "dest": "SBRF",
       "acft": "Jet only",
-      "route": "ARNOX UZ17 DALMU",
+      "route": "ILTAT UZ23 ANBEX",
       "notes": ""
     },
     {
@@ -5568,9 +5561,23 @@
     },
     {
       "dept": "SBSV",
+      "dest": "SBPA",
+      "acft": "Jet only",
+      "route": "GILDO UZ21 VUNOX UZ38 VUKMO",
+      "notes": ""
+    },
+    {
+      "dept": "SBSV",
       "dest": "SBGO",
       "acft": "Jet only",
       "route": "ARNOX UZ17 ILRUM DCT OPGOL",
+      "notes": ""
+    },
+    {
+      "dept": "SBSV",
+      "dest": "SBPL",
+      "acft": "Jet only",
+      "route": "BOGUT DCT SIPIR",
       "notes": ""
     },
     {
@@ -5645,13 +5652,6 @@
     },
     {
       "dept": "SBTE",
-      "dest": "SBFZ",
-      "acft": "Jet only",
-      "route": "MUMAG DCT DOTKU",
-      "notes": ""
-    },
-    {
-      "dept": "SBTE",
       "dest": "SBGR",
       "acft": "Jet only",
       "route": "GUEST UZ5 KIDUT DCT GEMIX DCT EPGEM DCT NIBSA DCT NISNI/N0450F350 UZ38 VUNOX",
@@ -5689,7 +5689,14 @@
       "dept": "SBTE",
       "dest": "SBBR",
       "acft": "Jet only",
-      "route": "GUEST UZ5 MUNOK DCT TOLAT",
+      "route": "GUEST UZ5 ISORA",
+      "notes": ""
+    },
+    {
+      "dept": "SBTE",
+      "dest": "SBFZ",
+      "acft": "Jet only",
+      "route": "MUMAG DCT DOTKU",
       "notes": ""
     },
     {
@@ -5778,23 +5785,16 @@
     },
     {
       "dept": "SBUL",
-      "dest": "SBRF",
-      "acft": "Jet only",
-      "route": "AZOIC DCT ILRUM DCT UKMIL DCT PULRI UZ79 MUDAR",
-      "notes": ""
-    },
-    {
-      "dept": "SBUL",
-      "dest": "SBKP",
-      "acft": "Jet only",
-      "route": "KOMLU DCT DEVIR UZ2 ENTIT",
-      "notes": ""
-    },
-    {
-      "dept": "SBUL",
       "dest": "SBSP",
       "acft": "Jet only",
       "route": "KOMLU DCT DEVIR UZ2 ENTIT",
+      "notes": ""
+    },
+    {
+      "dept": "SBUL",
+      "dest": "SBRF",
+      "acft": "Jet only",
+      "route": "AZOIC DCT ILRUM DCT UKMIL DCT PULRI UZ79 MUDAR",
       "notes": ""
     },
     {
@@ -5925,13 +5925,6 @@
     },
     {
       "dept": "SBVT",
-      "dest": "SBCF",
-      "acft": "Jet only",
-      "route": "OPLOX UZ34 NIPDA",
-      "notes": ""
-    },
-    {
-      "dept": "SBVT",
       "dest": "SBGL",
       "acft": "Jet only",
       "route": "USVAG UN401 MOLSU",
@@ -5939,9 +5932,9 @@
     },
     {
       "dept": "SBVT",
-      "dest": "SBGR",
+      "dest": "SBCF",
       "acft": "Jet only",
-      "route": "USVAG DCT SIDUR DCT EDMUS",
+      "route": "OPLOX UZ34 NIPDA",
       "notes": ""
     },
     {
@@ -5949,6 +5942,13 @@
       "dest": "SBSP",
       "acft": "Jet only",
       "route": "MABSI UZ44 ADA UZ45 IBDAL",
+      "notes": ""
+    },
+    {
+      "dept": "SBVT",
+      "dest": "SBGR",
+      "acft": "Jet only",
+      "route": "USVAG DCT SIDUR DCT EDMUS",
       "notes": ""
     },
     {
